@@ -1,7 +1,7 @@
-site/_site
-.bundle
-.sass-cache
-Gemfile.lock
-/site
-/jekyll
-/pkg
+docs/site/_site
+docs/.bundle
+docs/.sass-cache
+docs/Gemfile.lock
+docs/site
+docs/jekyll
+docs/pkg
