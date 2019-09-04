@@ -1,5 +1,9 @@
+/** Imagem top **/
+
 .image-top{
-    margin-top:  1.8125;
-    margin-bottom:  1.8125;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: url("../images/layout/image-top.png");
+    background-size: cover;
+    
 }
