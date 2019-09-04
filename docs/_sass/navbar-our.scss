@@ -1,5 +1,17 @@
+.header-navbar ul{
+    display: flex;
+    flex-direction: column;
+    background: $navbar-color;
+}
+.header-navbar ul li{
+    text-align: center;
+}
 
-
+.header-navbar ul li a {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 
 
