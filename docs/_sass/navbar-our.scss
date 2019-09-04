@@ -3,19 +3,22 @@
     flex-direction: column;
     background: $navbar-color;
 }
-.header-navbar ul li{
+.header-navbar-items li{
     text-align: center;
     border-bottom: 1px solid white;
     padding: 1rem 11px;
 }
 
-.header-navbar ul li a {
+.header-navbar-items li a {
     color: white;
     text-align: center;
     font-size: 1.5rem;
+    font-family: 'Spectral', cursive;
 }
 
-
+.header-navbar-dropdown li{
+    display: none;
+}
 
 
 
