@@ -1,0 +1,34 @@
+.header-interno{
+    height: 15.1875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/layout/header-360.jpg");
+    h1{
+        display: flex;
+        font-family: 'Spectral';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 2.3125rem;
+        text-align: center;
+        align-items: center;
+        color: #333333;
+        border-bottom: 1px solid #333333;
+        flex-direction: column;
+        text-transform: uppercase;
+    }
+
+    p{
+        font-family: 'Cairo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size:1rem;
+        line-height: 157.9%;
+        text-align: center;
+        color: #777;
+    }
+
+
+}
