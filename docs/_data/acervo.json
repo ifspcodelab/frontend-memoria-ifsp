@@ -2,18 +2,17 @@
 
     {
         "periodo": "liceu",
-        "acervo": [
+        "acervos": [
 
             {
                 "titulo": "Imagem liceu 1",
                 "descricao": "liceu 1",
-                "miniatura": "",
-                "original": ""
+                "miniatura": "/docs/assets/images/acervo/1-t-p.jpg",
+                "original": "/docs/assets/images/acervo/1-o-p.jpg"
             },
             {
                 "titulo": "Imagem liceu 2",
                 "descricao": "liceu 2",
-
                 "miniatura": "",
                 "original": ""
             },
@@ -36,13 +35,13 @@
 
     {
         "periodo": "escola tecnica",
-        "acervo": [
+        "acervos": [
 
             {
                 "titulo": "Imagem escola tecnica 1",
                 "descricao": "escola tecnica 2",
-                "miniatura": "",
-                "original": ""
+                "miniatura": "/docs/assets/images/acervo/36-t-p.jpg",
+                "original": "/docs/assets/images/acervo/36-o-p.jpg"
             },
             {
                 "titulo": "Imagem 2",
@@ -69,19 +68,19 @@
 
     {
         "periodo": "ifsp",
-        "acervo": [
+        "acervos": [
 
             {
                 "titulo": "Imagem 1",
                 "descricao": "ifsp 1",
-                "miniatura": "",
-                "original": ""
+                "miniatura": "/docs/assets/images/acervo/37-t-m.jpg",
+                "original": "/docs/assets/images/acervo/37-t-m.jpg"
             },
             {
                 "titulo": "Imagem 2",
                 "descricao": "ifsp 2",
-                "miniatura": "",
-                "original": ""
+                "miniatura": "/docs/assets/images/acervo/38-t-g.jpg",
+                "original": "/docs/assets/images/acervo/38-o-p.jpg"
             },
 
             {

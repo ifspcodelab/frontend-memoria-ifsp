@@ -1,3 +1,22 @@
+var galeria = document.querySelector("#galeria");
+var batata = document.querySelector("#batata");
+
+galeria.addEventListener('click', function(e){
+    if(e.target.tagName == "IMG"){
+        var img = new Image();
+        img.src = "/docs/assets/images/acervo/" + e.target.dataset.id + "-o-p.jpg";
+        batata.firstChild.remove();
+        batata.appendChild(img);
+
+        console.log(
+            e.target.dataset.id
+        )
+    }
+    console.log(e);
+});
+
+
+/*
 function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
@@ -50,7 +69,7 @@ function filterSelection(c) {
     }
 }
 
-/*Show filtered elements*/
+/*Show filtered elements
 function w3AddClass(element, name) {
     var i, arr1, arr2;
     arr1 = element.className.split(" ");
@@ -62,7 +81,7 @@ function w3AddClass(element, name) {
     }
 }
 
-/*Hide elements that are not selected*/
+/*Hide elements that are not selected
 function w3RemoveClass(element, name) {
     var i, arr1, arr2;
     arr1 = element.className.split(" ");
@@ -75,7 +94,7 @@ function w3RemoveClass(element, name) {
     element.className = arr1.join(" ");
 }
 
-/*Add active class to the current button (highlight it)*/
+/*Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -84,4 +103,5 @@ for (var i = 0; i < btns.length; i++) {
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
     });
-}
+ 
+}   */

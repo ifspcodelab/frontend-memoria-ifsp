@@ -10,24 +10,28 @@
 </head>
 
 <body>
-    <h2 style="text-align:center">TESTE GALERIA MODAL</h2>
-
-    <div class="row">
+    <h2 style="text-align:center">TESTE  GALERIA MODAL</h2>
+    
+    
+    <div class="row" id="galeria">
         <div class="column">
-            <img src="/docs/assets/images/acervo/1-t-p.jpg" style="width:30%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            <img  data-id="1" src="/docs/assets/images/acervo/1-t-p.jpg" style="width:30%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
         </div>
         <div class="column">
-            <img src="/docs/assets/images/acervo/36-t-p.jpg" style="width:30%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            <img data-id="36" src="/docs/assets/images/acervo/36-t-p.jpg" style="width:30%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
         </div>
         <div class="column">
-            <img src="/docs/assets/images/acervo/37-t-m.jpg" style="width:30%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            <img data-id="37" src="/docs/assets/images/acervo/37-t-m.jpg" style="width:30%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
         </div>
         <div class="column">
-            <img src="/docs/assets/images/acervo/38-t-g.jpg" style="width:30%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            <img data-id="38" src="/docs/assets/images/acervo/38-t-g.jpg" style="width:30%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
         </div>
     </div>
+<div id="batata">
 
-    <div id="myModal" class="modal">
+</div>
+   
+<!-- <div id="myModal" class="modal">
         <span class="close cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
 
@@ -59,6 +63,7 @@
             </div>
         </div>
     </div>
+-->
 
     <script type="text/javascript" src="/docs/assets/javascript/modal.js"></script>
 </body>
