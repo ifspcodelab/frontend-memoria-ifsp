@@ -1,0 +1,104 @@
+[   
+
+    {
+        "periodo": "liceu",
+        "acervo": [
+
+            {
+                "titulo": "Imagem liceu 1",
+                "descricao": "liceu 1",
+                "miniatura": "",
+                "original": ""
+            },
+            {
+                "titulo": "Imagem liceu 2",
+                "descricao": "liceu 2",
+
+                "miniatura": "",
+                "original": ""
+            },
+
+            {
+                "titulo": "Imagem liceu 3",
+                "descricao": "liceu 3",
+                "miniatura": "",
+                "original": ""
+            },
+
+            {
+                "titulo": "Imagem liceu 4",
+                "descricao": "liceu 4",
+                "miniatura": "",
+                "original": ""
+            }
+        ]
+    },
+
+    {
+        "periodo": "escola tecnica",
+        "acervo": [
+
+            {
+                "titulo": "Imagem escola tecnica 1",
+                "descricao": "escola tecnica 2",
+                "miniatura": "",
+                "original": ""
+            },
+            {
+                "titulo": "Imagem 2",
+                "descricao": "escola tecnica 3",
+                "miniatura": "",
+                "original": ""
+            },
+
+            {
+                "titulo": "Imagem 3",
+                "descricao": "escola tecnica 3",
+                "miniatura": "",
+                "original": ""
+            },
+
+            {
+                "titulo": "Imagem 4",
+                "descricao": "escola tecnica 4",
+                "miniatura": "",
+                "original": ""
+            }
+        ]
+    },
+
+    {
+        "periodo": "ifsp",
+        "acervo": [
+
+            {
+                "titulo": "Imagem 1",
+                "descricao": "ifsp 1",
+                "miniatura": "",
+                "original": ""
+            },
+            {
+                "titulo": "Imagem 2",
+                "descricao": "ifsp 2",
+                "miniatura": "",
+                "original": ""
+            },
+
+            {
+                "titulo": "Imagem 3",
+                "descricao": "ifsp 3",
+                "miniatura": "",
+                "original": ""
+            },
+
+            {
+                "titulo": "Imagem 4",
+                "descricao": "ifsp 4",
+                "miniatura": "",
+                "original": ""
+            }
+        ]
+    }
+
+
+]

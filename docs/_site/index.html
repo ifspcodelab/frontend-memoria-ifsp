@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/modal.css">
+</head>
+
+<body>
+    <h2 style="text-align:center">TESTE GALERIA MODAL</h2>
+
+    <div class="row">
+        <div class="column">
+            <img src="/docs/assets/images/acervo/1-t-p.jpg" style="width:30%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="/docs/assets/images/acervo/36-t-p.jpg" style="width:30%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="/docs/assets/images/acervo/37-t-m.jpg" style="width:30%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+            <img src="/docs/assets/images/acervo/38-t-g.jpg" style="width:30%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="/docs/assets/images/acervo/1-o-p.jpg" style="width:50%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="/docs/assets/images/acervo/36-o-p.jpg" style="width:50%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="/docs/assets/images/acervo/37-o-m.jpg" style="width:50%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="/docs/assets/images/acervo/38-o-p.jpg" style="width:50%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/docs/assets/javascript/modal.js"></script>
+</body>
+
+</html>
