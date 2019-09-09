@@ -10,24 +10,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 1,25rem;
 line-height: 2,31rem;
-color: #999999;
+color: $index_text-color ;
 
-// posição p
 
-/*  position: absolute;
-height: 9,25rem;
-left: 0;
-right: 0;
-top: 
-*/
-
-//posição do p2
-/*position: absolute;
-height: 208px;
-left: 0px;
-right: 0px;
-top: 361px;
-*/
 }
 
 .main-header h1 {
@@ -35,48 +20,14 @@ top: 361px;
     font-family: 'Spectral';
     font-style: normal;
     font-weight: 600;
-    font-size: 34px;
-    line-height: 52px;
+    font-size: 2.15rem;
+    line-height: 3.25rem;
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: #636363;
-
-// h header ---------
-/*
-color: #636363;
-position: absolute;
-height: 37px;
-left: 0px;
-right: 0px;
-top: 310px;
-*/
+    color: $index_title-color;
 
 
-// h2 -----------------
-/*
-position: absolute;
-height: 37px;
-left: 0px;
-right: 0px;
-top: 310px;
-
-font-family: Spectral;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 37px;
-
-display: flex;
-align-items: center;
-text-transform: uppercase;
-
-*/
-}
-
-.main-header {
-    padding-top: 2.62rem;
-    
 }
 
 .title-h{
@@ -85,10 +36,10 @@ text-transform: uppercase;
     font-family: 'Spectral';
     font-style: normal;
     font-weight: 600;
-    font-size: 34px;
-    line-height: 52px;
+    font-size: 1.5rem;
+    line-height: 2.31rem;
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: #636363;
+    color: $index_title-color;
 }
