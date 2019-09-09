@@ -1,12 +1,15 @@
 .article-body {
-
+position: absolute;
+height: 41.93rem ;
+left: 6.25rem;
+right: 6.25rem;
+top: 50.75rem;
 
 font-family: 'cairo', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 1,25rem;
 line-height: 2,31rem;
-
 color: #999999;
 
 // posição p
@@ -27,18 +30,17 @@ top: 361px;
 */
 }
 
-.main-header h1, main-header h2{
-
-//
-font-family: 'Spectral';
-font-style: normal;
-font-weight: 600;
-font-size: 34px;
-line-height: 52px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
-
+.main-header h1 {
+    padding-bottom: 2.5rem;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #636363;
 
 // h header ---------
 /*
@@ -70,4 +72,23 @@ align-items: center;
 text-transform: uppercase;
 
 */
+}
+
+.main-header {
+    padding-top: 2.62rem;
+    
+}
+
+.title-h{
+    padding-top: 2.62rem;
+    padding-bottom: 0.87rem;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #636363;
 }
