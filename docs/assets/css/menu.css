@@ -77,8 +77,8 @@ a {
     .active::before, li:hover::before  {
         left: 50%;
         top: 100%;
-        margin-top: 11px;
-        transform: translateY(-50%) rotate(-90deg);
+        margin-top: 3px;
+        transform: translateX(-50%) rotate(-90deg);
         z-index: 2;
         background-image: url('triangulo.svg');
         background-repeat: no-repeat;
