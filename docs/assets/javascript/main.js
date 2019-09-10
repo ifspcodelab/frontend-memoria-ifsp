@@ -155,4 +155,15 @@ Modal.prototype.registerEvents = function() {
 
 var modal = new Modal('#main-gallery-modal', '#main-gallery-modal-content', '#main-gallery-modal-close');
 var mainGallery = new Gallery('#main-gallery', '#main-gallery-filter', modal);
-var mainGallery2 = new Gallery('#main-gallery2', '#main-gallery-filter2', modal);
+
+
+
+var filterGallery = document.getElementById("main-gallery-filter");
+var selector = filterGallery.getElementsByClassName("item-filter");
+for (var i = 0; i < selector.length; i++) {
+  selector[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
