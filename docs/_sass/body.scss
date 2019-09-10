@@ -1,9 +1,9 @@
 .article-body {
 position: absolute;
+margin: auto;
+width: auto;
+padding: 4.12rem 6.25rem;
 height: 41.93rem ;
-left: 6.25rem;
-right: 6.25rem;
-top: 50.75rem;
 
 font-family: 'cairo', sans-serif;
 font-style: normal;
@@ -11,12 +11,11 @@ font-weight: normal;
 font-size: 1,25rem;
 line-height: 2,31rem;
 color: $index_text-color ;
-
-
 }
 
 .main-header h1 {
-    padding-bottom: 2.5rem;
+
+    padding: 3.5rem 0 2.5rem;
     font-family: 'Spectral';
     font-style: normal;
     font-weight: 600;
@@ -26,8 +25,6 @@ color: $index_text-color ;
     align-items: center;
     text-transform: uppercase;
     color: $index_title-color;
-
-
 }
 
 .title-h{
@@ -42,4 +39,14 @@ color: $index_text-color ;
     align-items: center;
     text-transform: uppercase;
     color: $index_title-color;
+}
+
+.image-header, .imagem-main {
+    display: flex;
+    margin: auto;
+    width: auto;
+} 
+
+.imagem-main {
+    padding-top: 3rem;
 }
