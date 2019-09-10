@@ -1,0 +1,9 @@
+---
+    layout: layout-complexo
+    
+---
+{{ content }}
+{% assign dados = site.data.linha_tempo[page.id] %}
+
+<h2><span>{{dados.ano_inicio}} - {{ dados.ano_fim }}</span>{{ dados.titulo }}</h2>
+{{ content }}
