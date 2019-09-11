@@ -59,7 +59,7 @@
 
 .modal-content {
   background-color: #fefefe;
-  margin: 50px auto;
+  margin: 35px auto;
   /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
@@ -84,6 +84,8 @@
 }
 
 .modal img {
-  max-width: 100%;
+  /*max-width: 200px;okay até resolução width 320*/
+  /*max-width: 300px;okay atéresolução width 540*/
+  max-width: 500px; /*okay até resolução width 720*/
   height: auto;
 }
