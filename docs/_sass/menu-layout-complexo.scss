@@ -47,7 +47,7 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 2;
-    background-image: url('triangulo.svg');
+    background-image: url('../images/layout/triangulo.svg');
     background-repeat: no-repeat;
     
   }
@@ -80,7 +80,7 @@
           margin-top: 11px;
           transform: translateY(-50%) rotate(-90deg);
           z-index: 2;
-          background-image: url('triangulo.svg');
+          background-image: url('../images/layout/triangulo.svg');
           background-repeat: no-repeat;
           
         }
