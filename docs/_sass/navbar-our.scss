@@ -21,5 +21,14 @@
 }
 
 
+@media (min-width: 720px){
+    .header-navbar ul{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header-navbar-items li{
+        border: none;
+    }
 
+}
 
