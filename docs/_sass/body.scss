@@ -1,10 +1,7 @@
 .article-body {
-position: absolute;
 margin: auto;
-width: auto;
-padding: 4.12rem 6.25rem;
+padding: 2rem;
 height: 41.93rem ;
-
 font-family: 'cairo', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -42,11 +39,7 @@ color: $index_text-color ;
 }
 
 .image-header, .imagem-main {
-    display: flex;
-    margin: auto;
-    width: auto;
+    width: 100%;
+    height: auto;
+    
 } 
-
-.imagem-main {
-    padding-top: 3rem;
-}
