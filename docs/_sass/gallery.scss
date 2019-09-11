@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item img {
+    cursor: pointer;
+  }
+  
+  .gallery-filter {
+    list-style: none;
+    display: flex;
+  }
+  
+  .gallery-filter li {
+    margin-right: 10px;
+  }
+  
+  .gallery-filter li a {
+    text-decoration: none;
+    width: 100%;
+  }
