@@ -1,9 +1,9 @@
-nav {
+.nav-filter {
     max-width: 1200px;
     margin: 0 auto;
   }
   
-  ul {
+  .gallery-filter {
     list-style: none;
     border-left: 1px solid #56705F;
     padding-left: 25px;
@@ -12,7 +12,7 @@ nav {
     justify-content: center;
   }
   
-  li {
+  .item-filter {
     border: 1px solid #CCCCCC;
     margin-bottom: 10px;
     color: #999999;
@@ -21,7 +21,7 @@ nav {
     align-items: center;
   }
   
-  a {
+  .filter {
     display: block;
     text-decoration: none;
     padding: 10px 20px;
@@ -30,7 +30,7 @@ nav {
     font-family: 'Special Elite', cursive;
   }
   
-  .active, li:hover {
+  .active, .item-filter:hover {
     position: relative;
     border: 1px solid #56705F;
     color: #56705F;
@@ -38,7 +38,7 @@ nav {
   
   
   
-  .active::before, li:hover::before  {
+  .active::before, .item-filter:hover::before  {
     position: absolute;
     content: " ";
     width: 16px;
@@ -55,7 +55,7 @@ nav {
   
   
   @media (min-width: 900px) {
-      ul {
+    .gallery-filter {
           flex-direction: row;
           border-left: none;
           padding-left: 0px;
@@ -64,7 +64,7 @@ nav {
     
       }
   
-      li {
+      .item-filter {
           margin-bottom: 0px;
           margin-right: 20px;
           color: #999999;
@@ -74,7 +74,7 @@ nav {
           border: none;
       }  
   
-      .active::before, li:hover::before  {
+      .active::before, .item-filter:hover::before  {
           left: 50%;
           top: 100%;
           margin-top: 11px;
