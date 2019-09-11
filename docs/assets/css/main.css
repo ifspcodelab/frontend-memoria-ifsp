@@ -84,8 +84,18 @@
 }
 
 .modal img {
-  /*max-width: 200px;okay até resolução width 320*/
-  /*max-width: 300px;okay atéresolução width 540*/
-  max-width: 500px; /*okay até resolução width 720*/
+  max-width: 200px;
   height: auto;
+}
+
+@media (min-width: 540px){
+  .modal img {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 720px){
+  .modal img {
+    max-width: 500px;
+  }
 }
