@@ -9,6 +9,3 @@ O Projeto "Centro de Memória" reúne o acervo documental do IFSP em seus difere
 
 O objetivo é preservar os documentos e objetos do tempo presente para que a memória histórica e cultural cumpra sua função social permitindo que a história da intituição seja conhecida e disseminada pela comunidade na qual se insere. Compatibilidade com o leitor da tela ativada.
 
-##  O Patrono 
-
-![Jogos de integração - 1986.1](assets/images/layout/article-img.png)
