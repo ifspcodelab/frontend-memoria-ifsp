@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     background-image: url("../images/layout/header-360.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     h1{
         display: flex;
         font-family: 'Spectral';
