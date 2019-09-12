@@ -1,5 +1,25 @@
 footer{
-    background-image: url("../images/layout/footer.p.jpg");
-    background-size: cover;
-    height: 20.25rem;
+
+    display: flex;
+    height: 15rem;
+    background-color: $footer-background-color;
+    overflow: hidden;
+}
+
+.footer-span{
+    width: 5rem;
+}
+
+.footer-img {
+    height: auto;
+    width: 100%;
+    background: url("../images/layout/footer-p.jpg") no-repeat;
+    background-position: right;
+    
+}
+
+@media (min-width: 720px){
+    .footer-span{
+        width: 20rem;
+    }
 }

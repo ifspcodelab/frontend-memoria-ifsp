@@ -11,14 +11,15 @@
 <body>
 
     <header>
-
-    
      {% include image-top.html %}
      {% include navbar-our.html %}
     </header>
-    <article>
-        {{ content }}
+
+    <article class="article-body">
+    {{ content }}
     </article>
-    {% include footer.html  %}
+    <footer>
+        {% include footer.html %}
+    </footer>
 </body>
 </html>
