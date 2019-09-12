@@ -78,9 +78,9 @@ Gallery.prototype.registerEvents = function () {
   this.element.addEventListener('click', this.openItem.bind(this));
 };
 
-Gallery.prototype.getItem = function(index) {
+Gallery.prototype.getItem = function(i) {
   return this.itens.filter(function(item){
-    return item.id == index;
+    return item.id == i;
   })[0];
 }
 
@@ -92,6 +92,9 @@ Gallery.prototype.render = function () {
 
 Gallery.prototype.filter = function (e) {
   if (e.target.className == 'filter') {
+       
+    this.changeFilter(e.target.parentNode);
+
     var type = e.target.dataset.filter;
     
     if (type === 'all') {
@@ -110,6 +113,13 @@ Gallery.prototype.filter = function (e) {
     this.render();
   }
 };
+
+Gallery.prototype.changeFilter = function(item) {
+  for (var i = 0; i < this.filterElement.children.length; i++) {
+    this.filterElement.children[i].classList.remove('active');
+  }
+  item.classList.add('active');
+}
 
 Gallery.prototype.openItem = function(e) {
   if(e.target.tagName === 'IMG') {
@@ -155,15 +165,3 @@ Modal.prototype.registerEvents = function() {
 
 var modal = new Modal('#main-gallery-modal', '#main-gallery-modal-content', '#main-gallery-modal-close');
 var mainGallery = new Gallery('#main-gallery', '#main-gallery-filter', modal);
-
-
-
-var filterGallery = document.getElementById("main-gallery-filter");
-var selector = filterGallery.getElementsByClassName("item-filter");
-for (var i = 0; i < selector.length; i++) {
-  selector[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
