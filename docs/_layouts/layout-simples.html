@@ -3,7 +3,9 @@ layout: layout
 ---
 <article class="article-body">
     <header class="main-header">
+        {% if page.image_address %}
         <img class="image-header" src="{{page.image_address}}" alt="Jogos de integração - 1986.1"/>
+        {% endif %}
         <h1>{{page.title}}</h1>
         
     </header>
