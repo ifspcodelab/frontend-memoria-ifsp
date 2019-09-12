@@ -1,0 +1,4 @@
+baseurl: /frontend-memoria-ifsp
+sass:
+    sass_dir: _sass
+    style: compressed

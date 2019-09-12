@@ -1,0 +1,16 @@
+/** Reset **/
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,46 @@
+/** Medias **/
+@media(min-width: 540px){
+    
+}
+
+@media (min-width: 900px) {
+    // ul {
+    //     flex-direction: row;
+    //     border-left: none;
+    //     padding-left: 0px;
+    //     padding-bottom: 18px;
+    //     border-bottom: 1px solid #56705F;
+  
+    // }
+
+    // li {
+    //     margin-bottom: 0px;
+    //     margin-right: 20px;
+    //     color: #999999;
+    //     border: none;
+    //   }
+    // .active {
+    //     border: none;
+    // }  
+
+    // .active::before, li:hover::before  {
+    //     left: 50%;
+    //     top: 100%;
+    //     margin-top: 11px;
+    //     transform: translateY(-50%) rotate(-90deg);
+    //     z-index: 2;
+    //     background-image: url('triangulo.svg');
+    //     background-repeat: no-repeat;
+        
+    //   }
+      
+}
+
+@media(min-width: 720px){
+    :root{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024){
+}

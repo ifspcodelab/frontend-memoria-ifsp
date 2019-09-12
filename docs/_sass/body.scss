@@ -1,0 +1,45 @@
+.article-body {
+margin: auto;
+padding: 2rem;
+max-width: 50rem;
+font-family: 'cairo', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1,25rem;
+line-height: 2,31rem;
+color: $index_text-color ;
+}
+
+.main-header h1 {
+
+    padding: 3.5rem 0 2.5rem;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.15rem;
+    line-height: 3.25rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: $index_title-color;
+}
+
+.main-content h2{
+    padding-top: 2.62rem;
+    padding-bottom: 0.87rem;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.31rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: $index_title-color;
+}
+
+.main-content img, .main-header img{
+    width: 100%;
+    height: auto;
+    
+} 
