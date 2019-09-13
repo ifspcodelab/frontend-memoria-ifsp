@@ -1,0 +1,37 @@
+/********************/
+/***** gallery ******/
+/********************/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 20px;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .gallery-item img {
+    cursor: pointer;
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  
+  .gallery-filter {
+    list-style: none;
+    display: flex;
+  }
+
+  .gallery-filter li {
+    margin-right: 10px;
+  }
+  
+  .gallery-filter li a {
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Cairo';
+  }
