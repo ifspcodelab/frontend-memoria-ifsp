@@ -6,8 +6,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
-    margin-left: 10px;
-    align-content: center;
+    margin-left: 20px;
+    justify-content: center;
   }
   
   .gallery-item {
@@ -33,4 +33,5 @@
   .gallery-filter li a {
     text-decoration: none;
     width: 100%;
+    font-family: 'Cairo';
   }
