@@ -10,6 +10,10 @@ line-height: 2,31rem;
 color: $index_text-color ;
 }
 
+.article-body-gallery {
+    max-width: 90rem;
+}
+
 .main-header h1 {
 
     padding: 3.5rem 0 2.5rem;
@@ -40,6 +44,5 @@ color: $index_text-color ;
 
 .main-content img, .main-header img{
     width: 100%;
-    height: auto;
-    
+    height: auto;  
 } 
