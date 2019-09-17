@@ -30,6 +30,7 @@
   text-decoration: none;
   padding: 10px 20px;
   color: inherit;
+  font-size: 0.9rem;
   text-align: center;
   font-family: 'Special Elite', cursive;
 }
@@ -95,4 +96,8 @@
 
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 901px) {
+  .filter{
+    padding: 10px 10px;
+  }
+}
