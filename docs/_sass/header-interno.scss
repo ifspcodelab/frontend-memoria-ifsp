@@ -16,8 +16,8 @@
         line-height: 2.3125rem;
         text-align: center;
         align-items: center;
-        color: #333333;
-        border-bottom: 1px solid #333333;
+        color: $header-interno_title-color;
+        border-bottom: 1px solid $header-interno_title-color;
         flex-direction: column;
         text-transform: uppercase;
     }
@@ -29,7 +29,7 @@
         font-size:1rem;
         line-height: 157.9%;
         text-align: center;
-        color: #777;
+        color: $header-interno_text-color;
     }
 
 
