@@ -166,3 +166,5 @@ var Item = function (id, type, name, description, picture) {
   
   var modal = new Modal('#main-gallery-modal', '#main-gallery-modal-content', '#main-gallery-modal-close');
   var mainGallery = new Gallery('#main-gallery', '#main-gallery-filter', modal);
+
+  

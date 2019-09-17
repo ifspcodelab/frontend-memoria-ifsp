@@ -1,92 +1,98 @@
 .nav-filter {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-filter {
+  list-style: none;
+  border-left: 1px solid #56705F;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-filter {
+  border: 1px solid #CCCCCC;
+  margin-bottom: 10px;
+  color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-filter:hover {
+  cursor: pointer;
+}
+
+.filter {
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: inherit;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+.active,
+.item-filter:hover {
+  position: relative;
+  border: 1px solid #56705F;
+  color: #56705F;
+}
+
+
+
+.active::before,
+.item-filter:hover::before {
+  position: absolute;
+  content: " ";
+  width: 16px;
+  height: 16px;
+  left: -26px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background-image: url('../images/layout/triangulo.svg');
+  background-repeat: no-repeat;
+
+}
+
+
+
+@media (min-width: 900px) {
   .gallery-filter {
-    list-style: none;
-    border-left: 1px solid #56705F;
-    padding-left: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    border-left: none;
+    padding-left: 0px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #56705F;
+
   }
-  
+
   .item-filter {
-    border: 1px solid #CCCCCC;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    margin-right: 20px;
     color: #999999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: none;
   }
-  
-  .filter {
-    display: block;
-    text-decoration: none;
-    padding: 10px 20px;
-    color: inherit;
-    text-align: center;
-    font-family: 'Special Elite', cursive;
+
+  .active {
+    border: none;
   }
-  
-  .active, .item-filter:hover {
-    position: relative;
-    border: 1px solid #56705F;
-    color: #56705F;
-  }
-  
-  
-  
-  .active::before, .item-filter:hover::before  {
-    position: absolute;
-    content: " ";
-    width: 16px;
-    height: 16px;
-    left: -26px;
-    top: 50%;
-    transform: translateY(-50%);
+
+  .active::before,
+  .item-filter:hover::before {
+    left: 50%;
+    top: 100%;
+    margin-top: 11px;
+    transform: translateY(-50%) rotate(-90deg);
     z-index: 2;
     background-image: url('../images/layout/triangulo.svg');
     background-repeat: no-repeat;
-    
+
   }
-  
-  
-  
-  @media (min-width: 900px) {
-    .gallery-filter {
-          flex-direction: row;
-          border-left: none;
-          padding-left: 0px;
-          padding-bottom: 18px;
-          border-bottom: 1px solid #56705F;
-    
-      }
-  
-      .item-filter {
-          margin-bottom: 0px;
-          margin-right: 20px;
-          color: #999999;
-          border: none;
-        }
-      .active {
-          border: none;
-      }  
-  
-      .active::before, .item-filter:hover::before  {
-          left: 50%;
-          top: 100%;
-          margin-top: 11px;
-          transform: translateY(-50%) rotate(-90deg);
-          z-index: 2;
-          background-image: url('../images/layout/triangulo.svg');
-          background-repeat: no-repeat;
-          
-        }
-        
-  }
-  
-  @media (min-width: 1200px) {
-     
-  }
+
+}
+
+@media (min-width: 1200px) {}
