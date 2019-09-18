@@ -75,11 +75,11 @@
     margin-bottom: 0px;
     margin-right: 20px;
     color: #999999;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0)
   }
 
   .active {
-    border: none;
+    border: 1px solid #56705F;
   }
 
   .active::before,
@@ -97,7 +97,7 @@
 }
 
 @media (min-width: 901px) {
-  .filter{
+  .filter {
     padding: 10px 10px;
   }
 }
