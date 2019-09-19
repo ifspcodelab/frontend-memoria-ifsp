@@ -34,3 +34,22 @@
 
 
 }
+@media (min-width: 500px){
+    .header-interno{
+        background-image: url("../images/layout/header-500.jpg");
+    }
+}
+
+@media (min-width: 900px){
+    .header-interno{
+        background-image: url("../images/layout/header-900.jpg");
+    }
+
+}
+
+@media (min-width: 1200px){
+    .header-interno{
+        background-image: url("../images/layout/header-1200.jpg");
+    }
+
+}
