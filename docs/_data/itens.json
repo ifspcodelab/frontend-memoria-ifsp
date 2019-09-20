@@ -1,0 +1,81 @@
+[
+    {
+        "id": "1",
+        "type": "eaa",
+        "name": "Nome da Image 1",
+        "description": "Lorem 1 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/1"
+    },
+
+    {
+        "id": "2",
+        "type": "eaa",
+        "name": "Nome da Image 2",
+        "description": "Lorem 2 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/2"
+    },
+
+    {
+        "id": "3",
+        "type": "li",
+        "name": "Nome da Image 3",
+        "description": "Lorem 3 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/3"
+    },
+
+    {
+        "id": "4",
+        "type": "li",
+        "name": "Nome da Image 4",
+        "description": "Lorem 4 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/4"
+    },
+
+    {
+        "id": "5",
+        "type": "et",
+        "name": "Nome da Image 5",
+        "description": "Lorem 5 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/5"
+    },
+    
+    {
+        "id": "6",
+        "type": "etf",
+        "name": "Nome da Image 6",
+        "description": "Lorem 6 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/6"
+    },
+
+    {
+        "id": "7",
+        "type": "etf",
+        "name": "Nome da Image 7",
+        "description": "Lorem 7 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/7"
+    },
+
+    {
+        "id": "8",
+        "type": "cefet",
+        "name": "Nome da Image 8",
+        "description": "Lorem 8 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/8"
+    },
+
+    {
+        "id": "9",
+        "type": "cefet",
+        "name": "Nome da Image 9",
+        "description": "Lorem 9 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/9"
+    },
+
+    {
+        "id": "10",
+        "type": "ifsp",
+        "name": "Nome da Image 10",
+        "description": "Lorem 10 ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat beatae, animi, quasi repellat in",
+        "img": "assets/images/acervo/10"
+    }
+]
