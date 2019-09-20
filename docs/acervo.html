@@ -105,7 +105,7 @@ describe: Ao longo de sua tragetória a instituição acumulou um grande acervo,
   {% assign ordem = site.data.itens | sort: 'id'%}
   {% for item in ordem %}
   <div class="gallery-item" data-id="{{ item.id }}" data-type="{{ item.type }}" data-name="{{ item.name }}"
-    data-description="{{ item.descrition }}">
+    data-description="{{ item.description }}">
     <picture class="gallery-picture">
       <source srcset="{{ item.img }}-t-p.jpg" media="(max-width: 540px)">
       <source srcset="{{ item.img }}-t-m.jpg" media="(min-width: 540px)">
