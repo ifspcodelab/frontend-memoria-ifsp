@@ -26,6 +26,8 @@
     display: flex;
     flex-direction: column;
     background-color:#48805b !important;
+    
+
 }
 
 li:hover > .header-navbar-dropdown  {
@@ -53,6 +55,7 @@ li:hover > .header-navbar-dropdown  {
         position: absolute;
         flex-direction: column;
         background-color:#48805b !important;
+        width: 13.7rem;
     }
 
 }
