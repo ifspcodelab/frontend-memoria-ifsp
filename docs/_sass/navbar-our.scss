@@ -5,29 +5,27 @@
 }
 .header-navbar-items li{
     text-align: center;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid $navbar-border-color;
     
 }
 
 .header-navbar-items li a {
     display: inline-block;
-    color: white;
+    color: $navbar-item-color;
     text-align: center;
     font-size: 1rem;
-    font-family: 'Spectral', cursive;
+    font-family: 'Alegreya', times Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     padding: 1rem 11px;
 }
 .header-navbar-items > li > a:hover {
-    background-color: #48805b;
+    background-color: $navbar-background-color;
 }
 
 .header-navbar-dropdown {
     display: flex;
     flex-direction: column;
-    background-color:#48805b !important;
-    
-
+    background-color:$navbar-background-color;
 }
 
 li:hover > .header-navbar-dropdown  {
@@ -35,7 +33,7 @@ li:hover > .header-navbar-dropdown  {
 }
 
 .header-navbar-dropdown a:hover {
-    background-color: #5a8468;
+    background-color: $navbar-background_hover-color;
 }
 
 
@@ -54,7 +52,7 @@ li:hover > .header-navbar-dropdown  {
         display: none;
         position: absolute;
         flex-direction: column;
-        background-color:#48805b !important;
+        background-color:$navbar-background-color;
         width: 13.7rem;
     }
 
