@@ -46,3 +46,10 @@ color: $index_text-color ;
     width: 100%;
     height: auto;  
 } 
+.main-content:first-child{
+    margin-top: 0;
+}
+.main-content p{
+    margin: 13px auto;
+    /* text-indent: 75.59px; */
+}
